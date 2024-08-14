@@ -1,0 +1,14 @@
+import React from 'react'
+
+export const Home = () => {
+  return (
+    <div>
+         <img width={'100%'} height={150} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM2c1OtuXvJfomRjos8iKNe3EsUWDxEgyeyg&s" alt="img" />
+ 
+       <h1 style={{padding:"10px",textAlign:"center", marginTop:"7%", letterSpacing:"1px", fontFamily:"monospace",color:"black"}}>Mini Full Stack Library App</h1>
+        <div style={{textAlign:"center", marginTop:"2%"}}>
+            <img width={"20%"} height={"20%"} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACUCAMAAABY3hBoAAAAY1BMVEX///8CAgIAAAD8/PzOzs7Dw8Pe3t6Hh4cLCwteXl7W1taRkZFwcHD5+fns7Ozp6ek+Pj4vLy9XV1d4eHg1NTVSUlK3t7fz8/NJSUmqqqpDQ0OXl5egoKAXFxdkZGRqamojIyPw4NXqAAAGAklEQVR4nO2b14KrIBCGswio2EVRjO39n/IAlqAxPR5zwX+xmwLyOQ7DUHI6GRkZGRkZGRkZGRkZGRkZGX1P1tEAm4Lp+SfBrBIAcjTElqzYgL2mnwIrtNdrsODAnlCX7PJmBYZzWlzX+D/CvY6yAssA4AcwKQUuAO38bgnGAWiO8zgMAKinNwsw4mjfHCAPAGfyJCvTwIQt4+AgKKkiByCd3pxBGo4vmQCGBzENQporBXDiCloA6FFIo2zQbjyyGmRHj+fWbKaFtj/dUUXrvhwEhO0iL9vZ5Wrh1TR6sZLFEwD6PXAugn8idAH6yoMqWCPr2LsxDSK+bCU5P10BpbJCz/aPatBVaM8NhCSXhTP+f4Iti2Vr7HHBU9jLkudXnfJtWTx+DixKQPOSQ36ssH5uiEbnn0lqjYyMjH5UVqBkvZ2Yjhf49qAZukkSV2Xe+tSrOUMkfJKwwBBxfrZpl5dVnCUx+i4YAgs5fVy6NsL31ieCENZtXiXNsqr/bbA/TRfAtkZbY7QFOU0uMHrVXcEWhHHLLqsn0oIBoXmz4vnfYJPxKJqdmtTN2kqHgE10OVPuRvzmJtN3wYIoDItHYAotLtRaxn0uBWYN1/xIoV9V8fkxmETDJyt9XEyA4ayqyg/nmXCceT0B5ggw9ykwIi/qfQz2dwG77v1vgon/3wQDSRlnvRYsfwQMtDiMMCYQspqWzQruSLDVHBczzy9ntiPB8quJqxUR1g5sh/qYUpL7HkcEX/ILYjvgUDBt9FZ8NsdjsfZoMK2BUSknIoinvwOm4aW2f/Sj3Ayu4Fecfzu+Hhou3OJkWUVEELepm2bOAu5nAmyAxQDg/s2mOxIsxVEUFosJiBXxrjrex5wsLtOO2l7NyGUOEiIbHN8rZ8d3+tJmU/j/mQA788W0lmuZ7h2wVRLy/wKsk9jtnUcJHApRl0xo+z7KLYPcAANA7VXguhqL7ZPBxlnSN85mhn0LrA+Go0gWant5sV0CLC4ikcAixmu7i1fmuwWWnE4FHxI5Umdg9wBrBWHE7Dyb1wJugTUiNeqajqiJZABTukuALYrV+lYBOe0f+pg8bVCOyVuopm9f9rE+y2SIFRksxOHEaBWE3uuVpbCVmhr0lAxVorTfZ145qPLPnIwz/XsBFiB1qkBVTuthwMDn5MP9ywcZbJ+1HAcPAqwrbBRPqXniY2W28MMdufsBdjTd+d6jVIsaJxtcauT8C9uEDyL/THcnu1DuhLVBSZiN4k9PPzwBNrV3cxAHcSjdf3kr6Ydm+wrY5P6Lz0Bm48ft7womIoZw9nL1lTSby9/e/X0N7HQDTHf/JVv88iGOFRhcz5A2Qnx9Islm62rpL7o19SvfOvmgwHIxyNWU+n7rllnSaIF20UiTZjfSSVBFS/fXi5TwXbC/1SnSoMCIeXaXN6vkVJ/MDfltS+X6S6jmL+jKZGqYkj3gjdgxgMVb/ScIMeSts5WaKSN5CEf62vTa/WU1++2YocDENWyGBkEimtPvEHMar+zWdB7RHo8ls7hQrrUvufJaXufNSAvBavR2+izO3Y7W6HKzEfLnrEzEJ4ZnKpEV2b6bVlnvrd3/w2NIcCvBn12aMjjiBdwdPrLHyFQQdM61skmkFqu+RnYvTAwkXT2wBTAGzpjVBIimq20ueeIGre/ygwOpwdntOt/3u7Zt0zJOrtaqlTVqojwFqb8Rc6+LAJX752v3/8RmcrtZKAiCIhymIp6fLM0n3X3auA1ppX0+uKVrc9FpTmqrafziCzbbVoHOvopjM0Ii7YXbBVXV2WzuI+LrYuwheQK+YbObcIT5F7sBQGHda5045/AqSqVD8EFwR5uNwnYJNJqxtYSyzfg0xOtUTJT6mWy3k7yhimKqkempsluZlnJ/dSROs9nz5x1fZ7P7SzvpvaNstRy1h73g0c9UhNtPWFlNDkfo7hgTgvn3B+Nol+19JA/JON97j1IYH1RT1iptBrJo959/FYyzx3cPNZciYH97TXp490WqpULwej/vOC1mlEf+SGKlo4/5GxkZGRkZGRkZGRkZGRkZ3dY/hwpV0tYVYMYAAAAASUVORK5CYII=" alt="img" />
+        </div>
+          </div>
+  )
+}
