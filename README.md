@@ -16,11 +16,11 @@
                 <img width="50" height="50" src="https://img.icons8.com/?size=48&id=v8RpPQUwv0N8&format=png" alt="html" />
                 <img width="50" height="50" src="https://img.icons8.com/?size=48&id=21278&format=png" alt="css" />
                 <img width="50" height="50" src="https://img.icons8.com/?size=48&id=108784&format=png" alt="js" />
-                <img src="https://img.icons8.com/?size=48&id=123603&format=png" alt="reactjs" />
-                <img src="https://img.icons8.com/?size=48&id=54087&format=png" alt="nodejs" />
-                <img src="https://img.icons8.com/?size=48&id=PZQVBAxaueDJ&format=png" alt="expressjs" />
-                <img src="https://img.icons8.com/?size=48&id=bosfpvRzNOG8&format=png" alt="mongodb"/>
-                <img src="https://cdn-icons-png.flaticon.com/128/16573/16573409.png" alt="npm" />
+                <img width="50" height="50" src="https://img.icons8.com/?size=48&id=123603&format=png" alt="reactjs" />
+                <img width="50" height="50" src="https://img.icons8.com/?size=48&id=54087&format=png" alt="nodejs" />
+                <img width="50" height="50" src="https://img.icons8.com/?size=48&id=PZQVBAxaueDJ&format=png" alt="expressjs" />
+                <img width="50" height="50" src="https://img.icons8.com/?size=48&id=24895&format=png" alt="npm" />
+                <img width="50" height="50" src="https://img.icons8.com/?size=48&id=bosfpvRzNOG8&format=png" alt="mongodb"/>
                 <img width="50" height="50" src="https://cdn-icons-png.flaticon.com/128/733/733553.png" alt="git"/>
                 <img width="50" height="50" src="https://cdn-icons-png.flaticon.com/128/17468/17468924.png" alt="vercel" />
             </div>
